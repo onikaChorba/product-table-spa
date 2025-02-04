@@ -13,9 +13,9 @@ function App() {
         <main className="content">
           <Navbar />
           <Routes>
-            <Route path="/" element={<Navigate to="/product-list" />} />
-            <Route path="/product-list" element={<ProductTable />} />
-            <Route path="/my- account" element={<h3>Account Page</h3>} />
+            <Route path="/" element={<Navigate to="product-table-spa/product-list" />} />
+            <Route path="product-table-spa/product-list" element={<ProductTable />} />
+            <Route path="product-table-spa/my-account" element={<h3>Account Page</h3>} />
           </Routes>
         </main>
       </div>

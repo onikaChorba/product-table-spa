@@ -16,7 +16,7 @@ export const Navbar = () => {
       <ul className={styles.navbar__list}>
         <li className={styles.navbar__item}>
           <Link
-            to="/product-list"
+            to="product-table-spa/product-list"
             className={`${styles.navbar__link} ${activeLink === 'productList' ? styles.active : ''}`}
             onClick={() => handleLinkClick('productList')}
           >
@@ -29,7 +29,7 @@ export const Navbar = () => {
         </li>
         <li className={styles.navbar__item}>
           <Link
-            to="/my-account"
+            to="product-table-spa/my-account"
             className={`${styles.navbar__link} ${activeLink === 'myAccount' ? styles.active : ''}`}
             onClick={() => handleLinkClick('myAccount')}
           >
